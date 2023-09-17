@@ -1,6 +1,6 @@
 package org.example;
 
-public class FabricaBrasileiraoA implements FabricaAbstrata{
+public class FabricaAbstrataBrasileiraoA implements FabricaAbstrata{
     @Override
     public Classificacao createClassificacao() {
         return new ClassificacaoBrasileiraoA();
